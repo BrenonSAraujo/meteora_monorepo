@@ -1,0 +1,17 @@
+{
+  "name": "meteora",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:backend": "npm --workspace apps/meteora-backend start",
+    "start:frontend": "npm --workspace apps/meteora-frontend run dev",
+    "graphql:generate": "npm --workspace apps/meteora-backend run graphql:generate"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

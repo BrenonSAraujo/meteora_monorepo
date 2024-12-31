@@ -1,0 +1,40 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Category {
+  id: ID!
+  displayName: String!
+  icon: String!
+}
+
+type Seller {
+  id: ID!
+  name: String!
+}
+
+type Product {
+  id: ID!
+  name: String!
+  description: String!
+  price: Float!
+  image: String!
+  seller: Seller!
+  sizes: [Size!]!
+  colors: [Color!]!
+}
+
+type Color {
+  id: ID!
+  displayName: String!
+}
+
+type Size {
+  id: ID!
+  displayName: String!
+}
+
+type Query {
+  categories: [Category!]!
+  products(page: Float, limit: Float): [Product!]!
+}
