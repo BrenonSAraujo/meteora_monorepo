@@ -22,7 +22,7 @@ As principais tecnologias e técnicas aplicadas no projeto são:
 - **NPM Workspace**: ferramenta que permite gerenciar vários repositórios de pacotes dentro de um único repositório;
 - **Docker**: permite a criação, teste, implantação, atualização e gerenciamento de aplicações em contêineres;
 - **NestJS**: framework de código aberto para o desenvolvimento de aplicações back-end em Node.js;
-- **GraphQL**: linguagem de consulta de dados e ambiente de execução para interfaces de programação de aplicações (APIs);
+- **GraphQL**: linguagem de consulta de dados e ambiente de execução para interfaces de programação de aplicações (APIs). Com ela, a pesquisa torna-se mais direta ao ponto, entregando apenas o que foi solicitado;
 - **Apollo Client**: biblioteca de gerenciamento de estado para JavaScript;
 - **Prisma**: ORM que facilita a interação entre o código de uma aplicação e os dados de um banco de dados relacional;
 
